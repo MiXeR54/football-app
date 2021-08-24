@@ -4,7 +4,7 @@ import { useDataStatus } from "../../hooks/useDataStatus";
 
 export const MainPage = () => {
   const { data, error } = useDataStatus(
-    "http://api.football-data.org/v2/competitions?area=2077&plan=TIER_ONE"
+    "https://api.football-data.org/v2/competitions?area=2077&plan=TIER_ONE"
   );
 
   return (

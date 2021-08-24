@@ -7,7 +7,7 @@ export const CompetitionPage = () => {
   const { id } = useParams();
 
   const { data, error } = useDataStatus(
-    `http://api.football-data.org/v2/competitions/${id}`
+    `https://api.football-data.org/v2/competitions/${id}`
   );
 
   console.log(data);
