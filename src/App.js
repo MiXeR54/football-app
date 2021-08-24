@@ -13,7 +13,7 @@ export const App = () => {
   return (
     <ThemeProvider theme={darkTheme}>
       <CssBaseline />
-      <BrowserRouter>
+      <BrowserRouter basename="/football-app">
         <Switch>
           <Route exact path="/" component={MainPage} />
           <Route exact path="/competition/:id" component={CompetitionPage} />
